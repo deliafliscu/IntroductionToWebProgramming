@@ -17,7 +17,7 @@ const list = document.getElementById("list");
 const textArea = document.getElementById("text-area");
 
 addData.addEventListener("click", function () {
-  const listElement = document.getElementById("list-element");
+  const listElement = document.createElement("list-element");
   listElement.textContent = textArea.value;
   list.appendChild(listElement);
 });
