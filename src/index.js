@@ -9,7 +9,7 @@ myButton.addEventListener("click", function () {
 const myNotebook = document.getElementById("my-notebook");
 
 myButton.addEventListener("click", function () {
-  myNotebook.textContent = "My notebook";
+  myNotebook.textContent = "Moi maailma";
 });
 
 const addData = document.getElementById("add-data");
