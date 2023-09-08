@@ -1,7 +1,7 @@
 const myButton = document.getElementById("my-button");
 
 myButton.addEventListener("click", function () {
-  console.log("Hello world!");
+  console.log("Hello world");
 });
 
 const myNotebook = document.getElementById("my-notebook");
