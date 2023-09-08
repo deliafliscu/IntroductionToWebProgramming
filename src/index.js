@@ -1,9 +1,5 @@
 import "./styles.css";
 
-Cypress.on('uncaught:exception', (err, runnable) => {
-  return false
-})
-
 const myButton = document.getElementById("my-button");
 
 myButton.addEventListener("click", function () {
